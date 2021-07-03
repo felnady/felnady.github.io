@@ -1,4 +1,13 @@
 Message: Link prefetch resource from origin 'https://ogs.google.com' has been blocked from loading by Cross-Origin Resource Sharing policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://www.google.com' is therefore not allowed access. The response had HTTP status code 403.
-Source: http://www.google.com/#spf=1625269147491
+Source: http://www.google.com/#spf=1625284588905
+Line: 0
+-----------------------
+Message: Invalid 'X-Frame-Options' header encountered when loading 'https://ogs.google.com/widget/app/so?bc=1&origin=http%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=1&hl=en': 'ALLOW-FROM http://www.google.com' is not a recognized directive. The header will be ignored.
+Source: about:blank
+Line: 0
+-----------------------
+Message: Unrecognized Content-Security-Policy directive 'worker-src'.
+
+Source: https://ogs.google.com/widget/app/so?bc=1&origin=http%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=1&hl=en
 Line: 0
 -----------------------
